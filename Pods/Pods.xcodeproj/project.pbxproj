@@ -1,0 +1,658 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		066029627642F0AFA0DC5118BC0D26B7 /* SyuDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D6867BE40815248ECB49FFD242AF80 /* SyuDropDownMenu.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		11B4C6ECA4BCC5670D9C3C9E9BFC4D37 /* GaiDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 9910C3E7B05F09BA57338D5B8857915F /* GaiDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A5EC6FC4E93FBCFFDB539B4B2CB5CAD /* Pods-ToDo List-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55D3CC53C18AE22DEB00F0A3298E92E5 /* Pods-ToDo List-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DDAB71F9065331DBFC25A39D04CBD99 /* GaiDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 7277590420022574394424213917ED19 /* GaiDropDownMenu.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		344AB292F8C8F760733EB5E95BEB644F /* CCDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = E436C8718A2652033BF47A836F09E1A5 /* CCDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A91E0B1D658CABC84FDF01A9BFF24F3 /* CCDropDownMenus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC80AE5EDAA7896CBACC070A58601F0 /* CCDropDownMenus-dummy.m */; };
+		4835F6EF1CE93581D847B732BB423D20 /* CCDropDownMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 186ABD1AA9412469A13B2AABAA949542 /* CCDropDownMenuCell.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5253691F7B1E85CB1591D796CCBBFC7E /* CCDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B736D6275DD9EC5EC99F0D477AF56E2 /* CCDropDownMenu.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		5B33A55F0EF9BF78E14B51EFB7813161 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		67247C0AE564D4839CCCC7083FDC7169 /* ManaDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 50F9C12CE5C2F76AFBFB1B4256935F98 /* ManaDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ABC81B4F5EB16A690EF3C57AC240F78 /* CCDropDownMenuCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E0EC0763E893F3E78F03E21B3C3689B4 /* CCDropDownMenuCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D101F30FFE4B977268837BEE76B17E7 /* ManaDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ADB08A227579F601AD7F1D2D8626B3 /* ManaDropDownMenu.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		82B67FC3EA75E09800E443D28805D8E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A252E577EFF97089C0F6D73BE883BCEB /* CCDropDownMenus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C372FF4540FF117B11605754CE2C574 /* CCDropDownMenus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7E18D78C8AC05ABDA526F204D10D01F /* CCDropDownMenus.h in Headers */ = {isa = PBXBuildFile; fileRef = 1099A540E9528607E338ADED829CB00C /* CCDropDownMenus.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0825C1263621B66BD84077767C4A583 /* Rect.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4D5CB3537151A5A3954320FC2EBF07 /* Rect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCED8C5E086CF5C3AF0606AA4E8D34B4 /* Pods-ToDo List-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 472D6A1C8651D786AFA8258EDA796D60 /* Pods-ToDo List-dummy.m */; };
+		BD74979C910EEFD07D7152C58DA4A810 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = E1E781D2CF2CBD3A0B1AA8C40BEC296A /* arrow.png */; };
+		CC823AAF3B958AEB5484F87786BD2446 /* SyuDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0CACEFDA8EB4D5A68F4B59D23B8B22 /* SyuDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BE05BAC0CBAA53E58B8A00D18F93E26 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF93D018E96C61278F55F7881DBF87EE;
+			remoteInfo = CCDropDownMenus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CD5FB65E53CD9E6BB27A199348B403 /* Pods-ToDo List-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDo List-Info.plist"; sourceTree = "<group>"; };
+		07D6867BE40815248ECB49FFD242AF80 /* SyuDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SyuDropDownMenu.m; path = CCDropDownMenu/SyuDropDownMenu.m; sourceTree = "<group>"; };
+		0CA46F718F20FBFCBDA85D6BA14C4F51 /* CCDropDownMenus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCDropDownMenus.release.xcconfig; sourceTree = "<group>"; };
+		0D0CACEFDA8EB4D5A68F4B59D23B8B22 /* SyuDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SyuDropDownMenu.h; path = CCDropDownMenu/SyuDropDownMenu.h; sourceTree = "<group>"; };
+		1099A540E9528607E338ADED829CB00C /* CCDropDownMenus.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCDropDownMenus.h; path = CCDropDownMenu/CCDropDownMenus.h; sourceTree = "<group>"; };
+		186ABD1AA9412469A13B2AABAA949542 /* CCDropDownMenuCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCDropDownMenuCell.m; path = CCDropDownMenu/CCDropDownMenuCell.m; sourceTree = "<group>"; };
+		29ADB08A227579F601AD7F1D2D8626B3 /* ManaDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ManaDropDownMenu.m; path = CCDropDownMenu/ManaDropDownMenu.m; sourceTree = "<group>"; };
+		2EBB6ACBE94F6FDB268DE89A7D46D50B /* CCDropDownMenus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CCDropDownMenus.modulemap; sourceTree = "<group>"; };
+		3C372FF4540FF117B11605754CE2C574 /* CCDropDownMenus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCDropDownMenus-umbrella.h"; sourceTree = "<group>"; };
+		472D6A1C8651D786AFA8258EDA796D60 /* Pods-ToDo List-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ToDo List-dummy.m"; sourceTree = "<group>"; };
+		50F9C12CE5C2F76AFBFB1B4256935F98 /* ManaDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ManaDropDownMenu.h; path = CCDropDownMenu/ManaDropDownMenu.h; sourceTree = "<group>"; };
+		537A803CF9DB23ED782280FDBF582946 /* Pods-ToDo List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDo List.release.xcconfig"; sourceTree = "<group>"; };
+		55D3CC53C18AE22DEB00F0A3298E92E5 /* Pods-ToDo List-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ToDo List-umbrella.h"; sourceTree = "<group>"; };
+		57B5D4B44ADFCD5ABD0941FBCED4BE2E /* CCDropDownMenus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CCDropDownMenus.debug.xcconfig; sourceTree = "<group>"; };
+		5B736D6275DD9EC5EC99F0D477AF56E2 /* CCDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CCDropDownMenu.m; path = CCDropDownMenu/CCDropDownMenu.m; sourceTree = "<group>"; };
+		66487714431A028B98B47FA76662F873 /* CCDropDownMenus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CCDropDownMenus-Info.plist"; sourceTree = "<group>"; };
+		7277590420022574394424213917ED19 /* GaiDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GaiDropDownMenu.m; path = CCDropDownMenu/GaiDropDownMenu.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		83EEB3FB4DBCBFB151BACF8411864EC5 /* Pods-ToDo List-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ToDo List-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8BC80AE5EDAA7896CBACC070A58601F0 /* CCDropDownMenus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CCDropDownMenus-dummy.m"; sourceTree = "<group>"; };
+		9910C3E7B05F09BA57338D5B8857915F /* GaiDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GaiDropDownMenu.h; path = CCDropDownMenu/GaiDropDownMenu.h; sourceTree = "<group>"; };
+		9B992535188636B70C7B1233255B400B /* Pods-ToDo List.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ToDo List.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC13B7BEEEA6CB04000C858375BCAA91 /* Pods-ToDo List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ToDo List.debug.xcconfig"; sourceTree = "<group>"; };
+		C261FE6829DDD40FFBC33E7707C3D8C6 /* Pods-ToDo List */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ToDo List"; path = Pods_ToDo_List.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3F8EC1B3F79A89540A85F8177D6BA81 /* CCDropDownMenus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CCDropDownMenus-prefix.pch"; sourceTree = "<group>"; };
+		CEEAB68ABE3650F7EF755B3DB0DC40EB /* Pods-ToDo List-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ToDo List-acknowledgements.plist"; sourceTree = "<group>"; };
+		E0EC0763E893F3E78F03E21B3C3689B4 /* CCDropDownMenuCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCDropDownMenuCell.h; path = CCDropDownMenu/CCDropDownMenuCell.h; sourceTree = "<group>"; };
+		E1E781D2CF2CBD3A0B1AA8C40BEC296A /* arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = arrow.png; path = CCDropDownMenu/arrow.png; sourceTree = "<group>"; };
+		E436C8718A2652033BF47A836F09E1A5 /* CCDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCDropDownMenu.h; path = CCDropDownMenu/CCDropDownMenu.h; sourceTree = "<group>"; };
+		F13F89A799275FB7714EBA155B5FE00D /* CCDropDownMenus */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CCDropDownMenus; path = CCDropDownMenus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5F706EACF355FCC518A83CEC01322A7 /* Pods-ToDo List-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ToDo List-frameworks.sh"; sourceTree = "<group>"; };
+		FB4D5CB3537151A5A3954320FC2EBF07 /* Rect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Rect.h; path = CCDropDownMenu/Rect.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D22453F58182965EEB238DAC8F0C0E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82B67FC3EA75E09800E443D28805D8E3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9BF98CF50AA526A370B88B03D5FDFD0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B33A55F0EF9BF78E14B51EFB7813161 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0809E13B6702B6F8A313BF26585D11BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E1E781D2CF2CBD3A0B1AA8C40BEC296A /* arrow.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		36955B607CCE57F6493E22A1E765FC8B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D9211E58C8F3CC69DD0EBE2FF9F64A7 /* CCDropDownMenus */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FECD766395F12320765480867F1B59B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F13F89A799275FB7714EBA155B5FE00D /* CCDropDownMenus */,
+				C261FE6829DDD40FFBC33E7707C3D8C6 /* Pods-ToDo List */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5DC14A69EF3D2A8CF6998330B02C627F /* Pods-ToDo List */ = {
+			isa = PBXGroup;
+			children = (
+				9B992535188636B70C7B1233255B400B /* Pods-ToDo List.modulemap */,
+				83EEB3FB4DBCBFB151BACF8411864EC5 /* Pods-ToDo List-acknowledgements.markdown */,
+				CEEAB68ABE3650F7EF755B3DB0DC40EB /* Pods-ToDo List-acknowledgements.plist */,
+				472D6A1C8651D786AFA8258EDA796D60 /* Pods-ToDo List-dummy.m */,
+				F5F706EACF355FCC518A83CEC01322A7 /* Pods-ToDo List-frameworks.sh */,
+				04CD5FB65E53CD9E6BB27A199348B403 /* Pods-ToDo List-Info.plist */,
+				55D3CC53C18AE22DEB00F0A3298E92E5 /* Pods-ToDo List-umbrella.h */,
+				BC13B7BEEEA6CB04000C858375BCAA91 /* Pods-ToDo List.debug.xcconfig */,
+				537A803CF9DB23ED782280FDBF582946 /* Pods-ToDo List.release.xcconfig */,
+			);
+			name = "Pods-ToDo List";
+			path = "Target Support Files/Pods-ToDo List";
+			sourceTree = "<group>";
+		};
+		6D9211E58C8F3CC69DD0EBE2FF9F64A7 /* CCDropDownMenus */ = {
+			isa = PBXGroup;
+			children = (
+				E436C8718A2652033BF47A836F09E1A5 /* CCDropDownMenu.h */,
+				5B736D6275DD9EC5EC99F0D477AF56E2 /* CCDropDownMenu.m */,
+				E0EC0763E893F3E78F03E21B3C3689B4 /* CCDropDownMenuCell.h */,
+				186ABD1AA9412469A13B2AABAA949542 /* CCDropDownMenuCell.m */,
+				1099A540E9528607E338ADED829CB00C /* CCDropDownMenus.h */,
+				9910C3E7B05F09BA57338D5B8857915F /* GaiDropDownMenu.h */,
+				7277590420022574394424213917ED19 /* GaiDropDownMenu.m */,
+				50F9C12CE5C2F76AFBFB1B4256935F98 /* ManaDropDownMenu.h */,
+				29ADB08A227579F601AD7F1D2D8626B3 /* ManaDropDownMenu.m */,
+				FB4D5CB3537151A5A3954320FC2EBF07 /* Rect.h */,
+				0D0CACEFDA8EB4D5A68F4B59D23B8B22 /* SyuDropDownMenu.h */,
+				07D6867BE40815248ECB49FFD242AF80 /* SyuDropDownMenu.m */,
+				0809E13B6702B6F8A313BF26585D11BD /* Resources */,
+				C8FA9C803F4FBE3C2B37D465CCCC8884 /* Support Files */,
+			);
+			name = CCDropDownMenus;
+			path = CCDropDownMenus;
+			sourceTree = "<group>";
+		};
+		96E6F95067F009FD2410FBB0E7DC2C54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5DC14A69EF3D2A8CF6998330B02C627F /* Pods-ToDo List */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C8FA9C803F4FBE3C2B37D465CCCC8884 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EBB6ACBE94F6FDB268DE89A7D46D50B /* CCDropDownMenus.modulemap */,
+				8BC80AE5EDAA7896CBACC070A58601F0 /* CCDropDownMenus-dummy.m */,
+				66487714431A028B98B47FA76662F873 /* CCDropDownMenus-Info.plist */,
+				C3F8EC1B3F79A89540A85F8177D6BA81 /* CCDropDownMenus-prefix.pch */,
+				3C372FF4540FF117B11605754CE2C574 /* CCDropDownMenus-umbrella.h */,
+				57B5D4B44ADFCD5ABD0941FBCED4BE2E /* CCDropDownMenus.debug.xcconfig */,
+				0CA46F718F20FBFCBDA85D6BA14C4F51 /* CCDropDownMenus.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CCDropDownMenus";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				36955B607CCE57F6493E22A1E765FC8B /* Pods */,
+				4FECD766395F12320765480867F1B59B /* Products */,
+				96E6F95067F009FD2410FBB0E7DC2C54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2873F120E9C544F2337E1A7F81F5A383 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				344AB292F8C8F760733EB5E95BEB644F /* CCDropDownMenu.h in Headers */,
+				6ABC81B4F5EB16A690EF3C57AC240F78 /* CCDropDownMenuCell.h in Headers */,
+				A7E18D78C8AC05ABDA526F204D10D01F /* CCDropDownMenus.h in Headers */,
+				A252E577EFF97089C0F6D73BE883BCEB /* CCDropDownMenus-umbrella.h in Headers */,
+				11B4C6ECA4BCC5670D9C3C9E9BFC4D37 /* GaiDropDownMenu.h in Headers */,
+				67247C0AE564D4839CCCC7083FDC7169 /* ManaDropDownMenu.h in Headers */,
+				B0825C1263621B66BD84077767C4A583 /* Rect.h in Headers */,
+				CC823AAF3B958AEB5484F87786BD2446 /* SyuDropDownMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDA5C066600E41A1CB8E5714C5672A12 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A5EC6FC4E93FBCFFDB539B4B2CB5CAD /* Pods-ToDo List-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6DDF598AFB5508B9205340A35963AF15 /* Pods-ToDo List */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC15C69A7EEB3FBE9ABB0920EFBD904A /* Build configuration list for PBXNativeTarget "Pods-ToDo List" */;
+			buildPhases = (
+				FDA5C066600E41A1CB8E5714C5672A12 /* Headers */,
+				DB8F991E6979C0768729BD348B7FF914 /* Sources */,
+				5D22453F58182965EEB238DAC8F0C0E8 /* Frameworks */,
+				DA6D9056B944BEEDDDF1CD3F50D22C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3789992C349FEEED42A995B694ACCE0 /* PBXTargetDependency */,
+			);
+			name = "Pods-ToDo List";
+			productName = Pods_ToDo_List;
+			productReference = C261FE6829DDD40FFBC33E7707C3D8C6 /* Pods-ToDo List */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF93D018E96C61278F55F7881DBF87EE /* CCDropDownMenus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6675D1B9176B6A4B19D4E49891B2E29 /* Build configuration list for PBXNativeTarget "CCDropDownMenus" */;
+			buildPhases = (
+				2873F120E9C544F2337E1A7F81F5A383 /* Headers */,
+				3DB64B31B72B9EFFEA32684B6BDCD00E /* Sources */,
+				F9BF98CF50AA526A370B88B03D5FDFD0 /* Frameworks */,
+				761BB1EC7019B9AD91274C9314096485 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CCDropDownMenus;
+			productName = CCDropDownMenus;
+			productReference = F13F89A799275FB7714EBA155B5FE00D /* CCDropDownMenus */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4FECD766395F12320765480867F1B59B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF93D018E96C61278F55F7881DBF87EE /* CCDropDownMenus */,
+				6DDF598AFB5508B9205340A35963AF15 /* Pods-ToDo List */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		761BB1EC7019B9AD91274C9314096485 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD74979C910EEFD07D7152C58DA4A810 /* arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA6D9056B944BEEDDDF1CD3F50D22C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB64B31B72B9EFFEA32684B6BDCD00E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5253691F7B1E85CB1591D796CCBBFC7E /* CCDropDownMenu.m in Sources */,
+				4835F6EF1CE93581D847B732BB423D20 /* CCDropDownMenuCell.m in Sources */,
+				3A91E0B1D658CABC84FDF01A9BFF24F3 /* CCDropDownMenus-dummy.m in Sources */,
+				1DDAB71F9065331DBFC25A39D04CBD99 /* GaiDropDownMenu.m in Sources */,
+				7D101F30FFE4B977268837BEE76B17E7 /* ManaDropDownMenu.m in Sources */,
+				066029627642F0AFA0DC5118BC0D26B7 /* SyuDropDownMenu.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB8F991E6979C0768729BD348B7FF914 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCED8C5E086CF5C3AF0606AA4E8D34B4 /* Pods-ToDo List-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F3789992C349FEEED42A995B694ACCE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CCDropDownMenus;
+			target = DF93D018E96C61278F55F7881DBF87EE /* CCDropDownMenus */;
+			targetProxy = 5BE05BAC0CBAA53E58B8A00D18F93E26 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		047DC32E484FCDD3518E2E5BDB386756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CA46F718F20FBFCBDA85D6BA14C4F51 /* CCDropDownMenus.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCDropDownMenus/CCDropDownMenus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCDropDownMenus/CCDropDownMenus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CCDropDownMenus/CCDropDownMenus.modulemap";
+				PRODUCT_MODULE_NAME = CCDropDownMenus;
+				PRODUCT_NAME = CCDropDownMenus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		78FA35AD26BDB9616CFA50470A3E5C74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 537A803CF9DB23ED782280FDBF582946 /* Pods-ToDo List.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDo List/Pods-ToDo List-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDo List/Pods-ToDo List.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BA81C1366460F19B8FD6773A07FC3994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC13B7BEEEA6CB04000C858375BCAA91 /* Pods-ToDo List.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ToDo List/Pods-ToDo List-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ToDo List/Pods-ToDo List.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D6450CA02110B00EED4C571E0BB6B5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B5D4B44ADFCD5ABD0941FBCED4BE2E /* CCDropDownMenus.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CCDropDownMenus/CCDropDownMenus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CCDropDownMenus/CCDropDownMenus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CCDropDownMenus/CCDropDownMenus.modulemap";
+				PRODUCT_MODULE_NAME = CCDropDownMenus;
+				PRODUCT_NAME = CCDropDownMenus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC15C69A7EEB3FBE9ABB0920EFBD904A /* Build configuration list for PBXNativeTarget "Pods-ToDo List" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA81C1366460F19B8FD6773A07FC3994 /* Debug */,
+				78FA35AD26BDB9616CFA50470A3E5C74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6675D1B9176B6A4B19D4E49891B2E29 /* Build configuration list for PBXNativeTarget "CCDropDownMenus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6450CA02110B00EED4C571E0BB6B5B2 /* Debug */,
+				047DC32E484FCDD3518E2E5BDB386756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

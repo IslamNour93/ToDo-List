@@ -7,28 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		39A4055127F1DD0E0074ED8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4055027F1DD0E0074ED8B /* AppDelegate.m */; };
+		0C73E85EEEE69AC3252D6506 /* Pods_ToDo_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E7C9B3A49B33AA19130FFC90 /* Pods_ToDo_List.framework */; };
 		39A4055427F1DD0E0074ED8B /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4055327F1DD0E0074ED8B /* SceneDelegate.m */; };
-		39A4055727F1DD0E0074ED8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4055627F1DD0E0074ED8B /* ViewController.m */; };
-		39A4055A27F1DD0E0074ED8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A4055827F1DD0E0074ED8B /* Main.storyboard */; };
 		39A4055C27F1DD0F0074ED8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39A4055B27F1DD0F0074ED8B /* Assets.xcassets */; };
-		39A4055F27F1DD0F0074ED8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A4055D27F1DD0F0074ED8B /* LaunchScreen.storyboard */; };
-		39A4056227F1DD0F0074ED8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4056127F1DD0F0074ED8B /* main.m */; };
+		39A4057627F1DD9C0074ED8B /* DetailsFromInProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4056827F1DD9A0074ED8B /* DetailsFromInProgress.m */; };
+		39A4057727F1DD9C0074ED8B /* DoneTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4056927F1DD9A0074ED8B /* DoneTableView.m */; };
+		39A4057827F1DD9C0074ED8B /* TaskDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4056C27F1DD9B0074ED8B /* TaskDetails.m */; };
+		39A4057927F1DD9C0074ED8B /* AllTasksViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4056D27F1DD9B0074ED8B /* AllTasksViewController.m */; };
+		39A4057A27F1DD9C0074ED8B /* InProgressTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4056E27F1DD9B0074ED8B /* InProgressTableView.m */; };
+		39A4057B27F1DD9C0074ED8B /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4056F27F1DD9B0074ED8B /* Task.m */; };
+		39A4057C27F1DD9C0074ED8B /* AddTaskPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4057327F1DD9B0074ED8B /* AddTaskPage.m */; };
+		39A4057E27F1DDC40074ED8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4057D27F1DDC40074ED8B /* main.m */; };
+		39A4058027F1DDD90074ED8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A4057F27F1DDD90074ED8B /* Main.storyboard */; };
+		39A4058227F1DDEB0074ED8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39A4058127F1DDEB0074ED8B /* LaunchScreen.storyboard */; };
+		39A4058527F1DEE20074ED8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39A4058427F1DEE20074ED8B /* AppDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39A4054C27F1DD0E0074ED8B /* ToDo List.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ToDo List.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		39A4054F27F1DD0E0074ED8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		39A4055027F1DD0E0074ED8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		39A4055227F1DD0E0074ED8B /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		39A4055327F1DD0E0074ED8B /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		39A4055527F1DD0E0074ED8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		39A4055627F1DD0E0074ED8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		39A4055927F1DD0E0074ED8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39A4055B27F1DD0F0074ED8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		39A4055E27F1DD0F0074ED8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39A4056027F1DD0F0074ED8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39A4056127F1DD0F0074ED8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39A4056827F1DD9A0074ED8B /* DetailsFromInProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsFromInProgress.m; sourceTree = "<group>"; };
+		39A4056927F1DD9A0074ED8B /* DoneTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoneTableView.m; sourceTree = "<group>"; };
+		39A4056A27F1DD9B0074ED8B /* Task.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		39A4056B27F1DD9B0074ED8B /* TaskDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaskDetails.h; sourceTree = "<group>"; };
+		39A4056C27F1DD9B0074ED8B /* TaskDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaskDetails.m; sourceTree = "<group>"; };
+		39A4056D27F1DD9B0074ED8B /* AllTasksViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllTasksViewController.m; sourceTree = "<group>"; };
+		39A4056E27F1DD9B0074ED8B /* InProgressTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InProgressTableView.m; sourceTree = "<group>"; };
+		39A4056F27F1DD9B0074ED8B /* Task.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		39A4057027F1DD9B0074ED8B /* AddTaskPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTaskPage.h; sourceTree = "<group>"; };
+		39A4057127F1DD9B0074ED8B /* AllTasksViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllTasksViewController.h; sourceTree = "<group>"; };
+		39A4057227F1DD9B0074ED8B /* DoneTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoneTableView.h; sourceTree = "<group>"; };
+		39A4057327F1DD9B0074ED8B /* AddTaskPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddTaskPage.m; sourceTree = "<group>"; };
+		39A4057427F1DD9B0074ED8B /* DetailsFromInProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsFromInProgress.h; sourceTree = "<group>"; };
+		39A4057527F1DD9C0074ED8B /* InProgressTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InProgressTableView.h; sourceTree = "<group>"; };
+		39A4057D27F1DDC40074ED8B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39A4057F27F1DDD90074ED8B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		39A4058127F1DDEB0074ED8B /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		39A4058327F1DEE20074ED8B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39A4058427F1DEE20074ED8B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6CCFC68D0AC3C29ECBF5FB87 /* Pods-ToDo List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo List.debug.xcconfig"; path = "Target Support Files/Pods-ToDo List/Pods-ToDo List.debug.xcconfig"; sourceTree = "<group>"; };
+		7B14C3B7AB55977CD7B20C8C /* Pods-ToDo List.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDo List.release.xcconfig"; path = "Target Support Files/Pods-ToDo List/Pods-ToDo List.release.xcconfig"; sourceTree = "<group>"; };
+		E7C9B3A49B33AA19130FFC90 /* Pods_ToDo_List.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDo_List.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +58,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C73E85EEEE69AC3252D6506 /* Pods_ToDo_List.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C9161F3D256D0C6C3231672 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E7C9B3A49B33AA19130FFC90 /* Pods_ToDo_List.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		39A4054327F1DD0E0074ED8B = {
 			isa = PBXGroup;
 			children = (
 				39A4054E27F1DD0E0074ED8B /* ToDo List */,
 				39A4054D27F1DD0E0074ED8B /* Products */,
+				E62D5F42B69425058B76862E /* Pods */,
+				0C9161F3D256D0C6C3231672 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,19 +94,80 @@
 		39A4054E27F1DD0E0074ED8B /* ToDo List */ = {
 			isa = PBXGroup;
 			children = (
-				39A4054F27F1DD0E0074ED8B /* AppDelegate.h */,
-				39A4055027F1DD0E0074ED8B /* AppDelegate.m */,
-				39A4055227F1DD0E0074ED8B /* SceneDelegate.h */,
-				39A4055327F1DD0E0074ED8B /* SceneDelegate.m */,
-				39A4055527F1DD0E0074ED8B /* ViewController.h */,
-				39A4055627F1DD0E0074ED8B /* ViewController.m */,
-				39A4055827F1DD0E0074ED8B /* Main.storyboard */,
-				39A4055B27F1DD0F0074ED8B /* Assets.xcassets */,
-				39A4055D27F1DD0F0074ED8B /* LaunchScreen.storyboard */,
-				39A4056027F1DD0F0074ED8B /* Info.plist */,
-				39A4056127F1DD0F0074ED8B /* main.m */,
+				39A4058927F1FB910074ED8B /* Delegates */,
+				39A4057D27F1DDC40074ED8B /* main.m */,
+				39A4058627F1E4820074ED8B /* Model */,
+				39A4058727F1E5020074ED8B /* Controllers */,
+				39A4058827F1E51B0074ED8B /* View */,
+				39A4058A27F1FBA40074ED8B /* Resources */,
 			);
 			path = "ToDo List";
+			sourceTree = "<group>";
+		};
+		39A4058627F1E4820074ED8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39A4056A27F1DD9B0074ED8B /* Task.h */,
+				39A4056F27F1DD9B0074ED8B /* Task.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		39A4058727F1E5020074ED8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				39A4057027F1DD9B0074ED8B /* AddTaskPage.h */,
+				39A4057327F1DD9B0074ED8B /* AddTaskPage.m */,
+				39A4057427F1DD9B0074ED8B /* DetailsFromInProgress.h */,
+				39A4056827F1DD9A0074ED8B /* DetailsFromInProgress.m */,
+				39A4057227F1DD9B0074ED8B /* DoneTableView.h */,
+				39A4056927F1DD9A0074ED8B /* DoneTableView.m */,
+				39A4057527F1DD9C0074ED8B /* InProgressTableView.h */,
+				39A4056E27F1DD9B0074ED8B /* InProgressTableView.m */,
+				39A4056B27F1DD9B0074ED8B /* TaskDetails.h */,
+				39A4056C27F1DD9B0074ED8B /* TaskDetails.m */,
+				39A4057127F1DD9B0074ED8B /* AllTasksViewController.h */,
+				39A4056D27F1DD9B0074ED8B /* AllTasksViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		39A4058827F1E51B0074ED8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				39A4058127F1DDEB0074ED8B /* LaunchScreen.storyboard */,
+				39A4057F27F1DDD90074ED8B /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		39A4058927F1FB910074ED8B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				39A4058327F1DEE20074ED8B /* AppDelegate.h */,
+				39A4058427F1DEE20074ED8B /* AppDelegate.m */,
+				39A4055227F1DD0E0074ED8B /* SceneDelegate.h */,
+				39A4055327F1DD0E0074ED8B /* SceneDelegate.m */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		39A4058A27F1FBA40074ED8B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				39A4055B27F1DD0F0074ED8B /* Assets.xcassets */,
+				39A4056027F1DD0F0074ED8B /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E62D5F42B69425058B76862E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CCFC68D0AC3C29ECBF5FB87 /* Pods-ToDo List.debug.xcconfig */,
+				7B14C3B7AB55977CD7B20C8C /* Pods-ToDo List.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,9 +177,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 39A4056527F1DD0F0074ED8B /* Build configuration list for PBXNativeTarget "ToDo List" */;
 			buildPhases = (
+				4530BAB6B4A315FE1609C477 /* [CP] Check Pods Manifest.lock */,
 				39A4054827F1DD0E0074ED8B /* Sources */,
 				39A4054927F1DD0E0074ED8B /* Frameworks */,
 				39A4054A27F1DD0E0074ED8B /* Resources */,
+				C89738BC61C256FE9D41E216 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,46 +229,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A4055F27F1DD0F0074ED8B /* LaunchScreen.storyboard in Resources */,
+				39A4058227F1DDEB0074ED8B /* LaunchScreen.storyboard in Resources */,
+				39A4058027F1DDD90074ED8B /* Main.storyboard in Resources */,
 				39A4055C27F1DD0F0074ED8B /* Assets.xcassets in Resources */,
-				39A4055A27F1DD0E0074ED8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4530BAB6B4A315FE1609C477 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ToDo List-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C89738BC61C256FE9D41E216 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo List/Pods-ToDo List-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ToDo List/Pods-ToDo List-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ToDo List/Pods-ToDo List-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		39A4054827F1DD0E0074ED8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39A4055727F1DD0E0074ED8B /* ViewController.m in Sources */,
-				39A4055127F1DD0E0074ED8B /* AppDelegate.m in Sources */,
-				39A4056227F1DD0F0074ED8B /* main.m in Sources */,
+				39A4057E27F1DDC40074ED8B /* main.m in Sources */,
+				39A4057927F1DD9C0074ED8B /* AllTasksViewController.m in Sources */,
+				39A4057627F1DD9C0074ED8B /* DetailsFromInProgress.m in Sources */,
+				39A4057C27F1DD9C0074ED8B /* AddTaskPage.m in Sources */,
+				39A4058527F1DEE20074ED8B /* AppDelegate.m in Sources */,
+				39A4057727F1DD9C0074ED8B /* DoneTableView.m in Sources */,
+				39A4057827F1DD9C0074ED8B /* TaskDetails.m in Sources */,
 				39A4055427F1DD0E0074ED8B /* SceneDelegate.m in Sources */,
+				39A4057B27F1DD9C0074ED8B /* Task.m in Sources */,
+				39A4057A27F1DD9C0074ED8B /* InProgressTableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		39A4055827F1DD0E0074ED8B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39A4055927F1DD0E0074ED8B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		39A4055D27F1DD0F0074ED8B /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				39A4055E27F1DD0F0074ED8B /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		39A4056327F1DD0F0074ED8B /* Debug */ = {
@@ -289,6 +414,7 @@
 		};
 		39A4056627F1DD0F0074ED8B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CCFC68D0AC3C29ECBF5FB87 /* Pods-ToDo List.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -316,6 +442,7 @@
 		};
 		39A4056727F1DD0F0074ED8B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B14C3B7AB55977CD7B20C8C /* Pods-ToDo List.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

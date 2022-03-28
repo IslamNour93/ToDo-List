@@ -1,0 +1,16 @@
+PODS:
+  - CCDropDownMenus (0.1.2)
+
+DEPENDENCIES:
+  - CCDropDownMenus
+
+SPEC REPOS:
+  trunk:
+    - CCDropDownMenus
+
+SPEC CHECKSUMS:
+  CCDropDownMenus: ee65b63286a16354907fdde49c40c1817f463470
+
+PODFILE CHECKSUM: 3338bb7d2cc380d39a768a0e3a4ce8b54bbd4759
+
+COCOAPODS: 1.11.2
