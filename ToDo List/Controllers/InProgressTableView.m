@@ -177,15 +177,15 @@ UIView*prgVw;
                 
                 cell.accessoryType=UITableViewCellAccessoryDisclosureIndicator;
                 if ([[ArrHigh[indexPath.row] prior] isEqual:@"High"]) {
-                    imgg.image=[UIImage imageNamed:@"1"];
+                    imgg.image=[UIImage imageNamed:@"high"];
 
 
                 }else if ([[ArrHigh[indexPath.row] prior] isEqual:@"Medium"]){
-                    imgg.image=[UIImage imageNamed:@"90"];
+                    imgg.image=[UIImage imageNamed:@"medium"];
 
 
                 }else if ([[ArrHigh[indexPath.row] prior] isEqual:@"Low"]){
-                    imgg.image=[UIImage imageNamed:@"3"];
+                    imgg.image=[UIImage imageNamed:@"low"];
 
                 }
                 break;
@@ -408,30 +408,5 @@ UIView*prgVw;
     [tableView deselectRowAtIndexPath:indexPath animated:false];
     [self.navigationController pushViewController:editTaskProg animated:YES];
 }
-
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
-}
-*/
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

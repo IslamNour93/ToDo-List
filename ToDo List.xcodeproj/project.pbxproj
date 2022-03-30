@@ -94,6 +94,7 @@
 		39A4054E27F1DD0E0074ED8B /* ToDo List */ = {
 			isa = PBXGroup;
 			children = (
+				39A4056027F1DD0F0074ED8B /* Info.plist */,
 				39A4058927F1FB910074ED8B /* Delegates */,
 				39A4057D27F1DDC40074ED8B /* main.m */,
 				39A4058627F1E4820074ED8B /* Model */,
@@ -156,7 +157,6 @@
 			isa = PBXGroup;
 			children = (
 				39A4055B27F1DD0F0074ED8B /* Assets.xcassets */,
-				39A4056027F1DD0F0074ED8B /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
